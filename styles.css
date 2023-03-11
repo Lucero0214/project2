@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    background-color: black;
+    background-image:url(images/texture1.jpg);
+  }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+list-style: none;    
+margin: 0;
+padding: 10px;
+font-family: sans-serif;
+background-color: #333;
+text-align: center;
+}
+
+nav li {
+display: inline-flex;
+padding:10px;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid seashell;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.animate {
+    font: bold 3em sans-serif;
+    font-size: 48pt;
+    text-align: center;
+    color:blue;
+    animation: myAnimation 5s ease 1s 3 alternate forwards;
+}
+@keyframes myAnimation {
+    33% {
+      text-shadow: 2px 2px 2px black;
+    }
+    66% {
+      text-shadow: -2px -2px 2px black;
+    }
+    100% {
+      text-shadow: 0px 0px 10px black;
+    }
+  }
+
+section {
+width: 700px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.frame {
+position: relative;
+width: 640px;
+border: 20px solid white;
+}
+
+figcaption {
+    background-color: #000;
+    color: #ffffff;
+   width: 636px;
+    padding: 2px;
+    font-style: italic;
+    text-align: center;
+}
+.controls {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.back-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.back-btn:hover {
+    background-color: #111;
+}
+.back-btn::active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .next-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.next-btn:hover {
+    background-color: #111;
+}
+.next-btn::active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.slide {
+    display:block;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.current {
+    transition: opacity .5s ease-out;
+}
+
+.spacer{
+    padding: 2rem;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+form{
+    position: relative;
+    display: block;
+    padding: 5%;
+    background-color: gray;
+    border-radius: 10px;
+}
+button{
+    padding-bottom: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: blue;
+    color: white;
+    font-size: 12pt;
+    border: 0;
+}
+button:hover{
+    background-color: #111;
+}
