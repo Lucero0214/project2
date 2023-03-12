@@ -67,20 +67,6 @@ function changeSlide(e) {
 
 //form section 
 
-const form = document.getElementById('formSubmit').addEventListener('click', function (event) {
-  event.preventDefault();
+formSubmit.addEventListener("click", function (event) {
+    event.preventDefault();
 });
-
-form.elements[0];
-form.elements['name'];
-form.elements['name'];
-
-form.elements[1];
-form.elements['phone'];
-form.elements['phone'];
-
-const name = form.elements['name'];
-const phone = form.elements['phone'];
-
-let fullName = name.value;
-let emailAddress = phone.value;

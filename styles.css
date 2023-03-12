@@ -11,7 +11,7 @@ header {
     color: white;
     padding: 25px;
     margin: 0;
-    font-size: 32pt;
+    font-size: 40pt;
     font-weight: bold;
     text-align: center;
 }
@@ -63,21 +63,20 @@ li a:hover{
   }
 
 section {
-width: 700px;
+ width: 700px;   
  margin: 0 auto;
  text-align: center;
+ border: 20px solid #333;
 }
 
 .frame {
 position: relative;
-width: 640px;
 border: 20px solid white;
 }
 
 figcaption {
-    background-color: #000;
+    background-color: #333;
     color: #ffffff;
-   width: 636px;
     padding: 2px;
     font-style: italic;
     text-align: center;
@@ -147,34 +146,34 @@ figcaption {
 .spacer{
     padding: 2rem;
 }
+.wrapper {
+text-align: center;
+padding:2%;
+margin-bottom: 5%;
+}
+h3 {
+    font-size: 36pt;
+    color: #333;
+}
+p{
+    font-weight: semibold;
+}
 .container {
-    width: 400px;
-    margin: 0 auto;
-    display: block;
-    padding: 15px;
-    overflow: hidden;
-    background-color: white;
+    width: 300px;
+    margin: 0 auto; 
+    margin-bottom: 10%;
+    border: 10px solid white;
     text-align: center;
     border-radius: 10px;
 }
 form{
-    position: relative;
-    display: block;
     padding: 5%;
-    background-color: gray;
+    background-color:#999;
     border-radius: 10px;
 }
-button{
-    padding-bottom: 10px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    text-align: center;
-    background: blue;
+footer{
+    background-color: #333;
     color: white;
-    font-size: 12pt;
-    border: 0;
-}
-button:hover{
-    background-color: #111;
+    padding: 25px;
+    text-align: center;
 }
