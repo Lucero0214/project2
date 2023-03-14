@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -152,24 +156,45 @@ padding:2%;
 margin-bottom: 5%;
 }
 h3 {
-    font-size: 36pt;
     color: #333;
 }
 p{
-    font-weight: semibold;
+   font-family:"Lato",sans-serif; 
+   color: hsl(200, 55%, 32%);
+text-align: left;
+line-height: 1.4;
 }
 .container {
-    width: 500px;
-    margin: 0 auto; 
-    margin-bottom: 10%;
+    width: 400px;
+    margin: 1.5rem auto;
     border: 10px solid white;
-    text-align: center;
-    border-radius: 10px;
-}
-form{
-    padding: 5%;
     background-color:#999;
     border-radius: 10px;
+}
+#contact{
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin: 2rem;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: left;
+}
+#contact h3{
+   margin:.5rem auto;
+   text-align: center;
+}
+input, label{
+    display: block;
+    text-align: left;
+}
+input[type="text"] {
+font-size: 20px;
+padding: .3rem;
+margin-bottom: 1rem;
+}
+
+#formSubmit {
+    font-size: 50px;
+    padding: .3rem;
 }
 footer{
     background-color: #333;
